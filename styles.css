@@ -104,14 +104,15 @@ li {
 .interests-image{
     width: 350px;
     height: auto;
-    margin-right: 50px;
+    margin-left: 50px;
     border-radius: 10px;
 }
 
 .interests-info {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-between;
+    margin-right: 50px;
 }
 
 .interests-card {
