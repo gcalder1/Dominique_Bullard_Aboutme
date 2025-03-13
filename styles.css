@@ -5,6 +5,9 @@ html {
 body {
     margin-left: 100px;
     margin-right: 100px;
+    max-width: 1750px;
+    min-width: auto;
+    margin: 0 auto; /* Top & Bottom margin 0 with Left & Right margin auto */
     font-family: "raleway";
     color: #222222;
 
@@ -21,7 +24,7 @@ body {
     overflow: hidden; 
     margin-left: 50%;
     margin-right: 50%;
-    box-shadow: 0 5px 10px rgba(225, 106, 106, 0.1);
+    box-shadow: 0 5px 10px rgba(225, 106, 106, 0.1); /* Shadow */
   }
   
   .logo-image {
@@ -36,17 +39,16 @@ h1 {
 
 }
 
-.interests-images {
-    width: 25%;
-    max-width: 25%;
+.starting-images {
+    width: 100%;
+    max-width: 300px;
     height: auto;
-    max-height: 25%;
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(225, 106, 106, 0.3);
     
 }
 
-.interests {
+.starters {
     display: flex;
     justify-content: space-between;
     gap: 50px;
@@ -135,4 +137,33 @@ li {
     justify-content: center;
     text-decoration: none;
     color: #222222;
+}
+
+@media (max-width: 750px) { /* Triggers when screen limit becomes that */
+    .starters {
+        flex-direction: column; /* Stack images vertically on small screens */
+        align-items: center; /* Push things to center as they stack downwards */
+    }
+
+    .starting-images {
+        max-width: 100%; /* Allow images to take full width on small screens */
+    }
+
+    .interests-info {
+        flex-direction: column; /* Stack content vertically on small screens */
+        align-items: center; /* Push things to center as they stack downwards */
+    }
+
+    .hobbies-info {
+        flex-direction: column; /* Stack content vertically on small screens */
+        align-items: center; /* Push things to center as they stack downwards */
+    }
+
+    .interests-image {
+        margin: 20px 0; /* Adjust margins for stacked layout */
+    }
+
+    .hobbies-image {
+        margin: 20px 0; /* Adjust margins for stacked layout */
+    }
 }
