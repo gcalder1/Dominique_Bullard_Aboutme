@@ -127,3 +127,11 @@ li {
     gap: 100px;
 }
 
+.copyright {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: center;
+    text-decoration: none;
+    color: #222222;
+}
