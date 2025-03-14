@@ -36,8 +36,7 @@ All stock images used in this project are sourced from **[Pexels](https://www.pe
 ---
 
 ## 📧 **Contact**
-For questions or feedback, feel free to contact me:
-- **George Calderon**  [✉️]([george.calderon2000@gmail.com])
+Let's chat through [Calendly](https://calendly.com/george-calderon2000/15min)!
 
 ---
 
